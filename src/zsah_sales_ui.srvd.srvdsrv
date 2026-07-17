@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Sales Order'
+define service ZSAH_SALES_UI {
+  expose zsah_sales_i_c;
+  expose zsah_sales_o_c;
+}

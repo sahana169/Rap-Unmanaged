@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Sales Project'
+define service ZSAH_UI_SLS {
+  expose ZSAH_I_SLS    as Header;
+  expose ZSAH_I_SLSITM as Item;
+}
